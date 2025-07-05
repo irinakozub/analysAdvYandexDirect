@@ -31,6 +31,7 @@ function setup() {
   const url = `https://script.google.com/macros/library/d/${scriptId}/1`;
   eval(UrlFetchApp.fetch(url).getContentText());
 }
+```
 
 3. **Настройте** переменные в config.gs:
 ```javascript
@@ -43,15 +44,17 @@ const CONFIG = {
     COUNTER_ID: "ID_счетчика",
     OAUTH_TOKEN: "токен"
   }
-
 };
+```
+
 3. **Запустите** триггер:
 ```javascript
 ScriptApp.newTrigger('analysAdvYandexDirect')
   .timeBased()
   .everyDays(1)
   .create();
-  
+  ```
+
 🔮 **Планы развития**
 ```gantt
     title Roadmap
@@ -62,6 +65,7 @@ ScriptApp.newTrigger('analysAdvYandexDirect')
     Глубина просмотра           :2023-11-15, 7d
     Анализ отказов              :2023-11-20, 7d
     Авто-коррекция ставок       :2023-12-01, 14d
+```
 
 💰 **Поддержка**
 Если проект полезен для вашего бизнеса, поддержите разработку:
