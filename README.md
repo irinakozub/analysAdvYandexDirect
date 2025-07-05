@@ -3,7 +3,6 @@
 **Автор**: Irina Kozub  
 **Лицензия**: [Pay-What-You-Want Shared License](LICENSE.md) (минимум $1 в TON для коммерческого использования)  
 
-[![Support via TON](https://img.shields.io/badge/Support-Toncoin-yellow?logo=ton)](https://ton.org/qr/UQA_KkI02UIeLx8pOEtXcEcpKq0cZBgfDdB-wk1iWZ-WMbLg)
 [![Telegram Notifications](https://img.shields.io/badge/Telegram-Alerts-blue?logo=telegram)](coming_soon)
 
 ## 📌 О проекте
@@ -72,7 +71,6 @@ gantt
 Если проект полезен для вашего бизнеса, поддержите разработку:
 Toncoin (TON):
 UQA_KkI02UIeLx8pOEtXcEcpKq0cZBgfDdB-wk1iWZ-WMbLg
-https://ton.org/qr/UQA_KkI02UIeLx8pOEtXcEcpKq0cZBgfDdB-wk1iWZ-WMbLg?amount=1&text=Support+Irina+Kozub
 
 📮 Контакты
 Багрепорты: [issues](https://github.com/irinakozub/analysAdvYandexDirect/issues)
