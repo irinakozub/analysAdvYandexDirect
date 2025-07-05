@@ -25,13 +25,15 @@
 
 ## 🛠 Установка
 1. **Клонируйте** этот репозиторий в Google Apps Script:
+```javascript
 function setup() {
   const scriptId = "ВАШ_SCRIPT_ID";
   const url = `https://script.google.com/macros/library/d/${scriptId}/1`;
   eval(UrlFetchApp.fetch(url).getContentText());
 }
 
-2. **Настройте** переменные в config.gs:
+3. **Настройте** переменные в config.gs:
+```javascript
 const CONFIG = {
   PROMOPULT: {
     TOKEN: "ваш_api_ключ",
@@ -44,13 +46,14 @@ const CONFIG = {
 
 };
 3. **Запустите** триггер:
+```javascript
 ScriptApp.newTrigger('analysAdvYandexDirect')
   .timeBased()
   .everyDays(1)
   .create();
   
 🔮 **Планы развития**
-gantt
+```gantt
     title Roadmap
     dateFormat  YYYY-MM-DD
     section В разработке
